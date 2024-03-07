@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-02T22:20:41 EET" name="Suite" finished-at="2024-03-02T22:21:32 EET" duration-ms="51115">
+    <groups>
+    </groups>
+    <test started-at="2024-03-02T22:20:41 EET" name="HRMS API Tests" finished-at="2024-03-02T22:21:32 EET" duration-ms="51115">
+      <class name="Api.RestGpt.Login2">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Api.RestGpt.Login2@8576fa0]" started-at="2024-03-02T22:20:41 EET" name="setUp" finished-at="2024-03-02T22:20:42 EET" duration-ms="605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hrmsLogin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupApiConfig(java.lang.String)[pri:0, instance:Api.RestGpt.Login2@8576fa0]" started-at="2024-03-02T22:20:42 EET" name="setupApiConfig" finished-at="2024-03-02T22:20:57 EET" duration-ms="15571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hrmsLogin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApiConfig -->
+        <test-method signature="testPostResource()[pri:0, instance:Api.RestGpt.Login2@8576fa0]" started-at="2024-03-02T22:20:57 EET" name="testPostResource" finished-at="2024-03-02T22:21:00 EET" duration-ms="2170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostResource -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Api.RestGpt.Login2@8576fa0]" started-at="2024-03-02T22:21:00 EET" name="setUp" finished-at="2024-03-02T22:21:00 EET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hrmsDashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupApiConfig(java.lang.String)[pri:0, instance:Api.RestGpt.Login2@8576fa0]" started-at="2024-03-02T22:21:00 EET" name="setupApiConfig" finished-at="2024-03-02T22:21:23 EET" duration-ms="23620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hrmsDashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApiConfig -->
+        <test-method signature="testGetResource(java.lang.String)[pri:1, instance:Api.RestGpt.Login2@8576fa0]" started-at="2024-03-02T22:21:23 EET" name="testGetResource" finished-at="2024-03-02T22:21:26 EET" duration-ms="3099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hrmsDashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResource -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:Api.RestGpt.Login2@8576fa0]" started-at="2024-03-02T22:21:26 EET" name="setUp" finished-at="2024-03-02T22:21:26 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hrmsLogout]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupApiConfig(java.lang.String)[pri:0, instance:Api.RestGpt.Login2@8576fa0]" started-at="2024-03-02T22:21:26 EET" name="setupApiConfig" finished-at="2024-03-02T22:21:32 EET" duration-ms="5752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hrmsLogout]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApiConfig -->
+        <test-method signature="testLogout(java.lang.String)[pri:2, instance:Api.RestGpt.Login2@8576fa0]" started-at="2024-03-02T22:21:32 EET" name="testLogout" finished-at="2024-03-02T22:21:32 EET" duration-ms="247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hrmsLogout]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+      </class> <!-- Api.RestGpt.Login2 -->
+    </test> <!-- HRMS API Tests -->
+  </suite> <!-- Suite -->
+</testng-results>

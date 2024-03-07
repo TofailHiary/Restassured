@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Utils.ExtentReportListener" />
+	</listeners>
+
+    <test name="HRMS API Tests">
+        <parameter name="contentType" value="json"/>
+        <classes>
+            <class name="Api.RestGpt.Login2">
+                <methods>
+                    <include name="testPostResource">
+                        <parameter name="apiName" value="hrmsLogin"/>
+                    </include>
+                    <include name="testGetResource">
+                        <parameter name="apiName" value="hrmsDashboard"/>
+                    </include>
+                        <include name="testLogout">
+                        <parameter name="apiName" value="hrmsLogout"/>
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+	
+</suite>

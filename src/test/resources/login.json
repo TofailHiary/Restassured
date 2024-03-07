@@ -1,0 +1,34 @@
+{
+  "msgHeader": {
+    "msgType": 0,
+    "langCode": 0,
+    "gUID": "string",
+    "timeStamp": "string",
+    "action": 0,
+    "statusCode": 0,
+    "statusDesc": "string"
+  },
+  "msgBody": {
+    "userName": "es64725",
+    "password": "P@ssw0rd",
+    "fullName": "string",
+    "email": "string",
+    "isManager": true,
+    "inboxCounter": 0,
+    "recaptchaValue": "",
+   // "profilePicture": "string",
+  "lastLogingDate": "2024-01-28T15:03:00.215Z",
+    "<IsPasswordSetByAdmin>k__BackingField": true,
+   "<IsPasswordExpired>k__BackingField": true,
+   "<IsPasswordNearlyExpired>k__BackingField": true
+  },
+  "msgFooter": {
+    "createdOn": "string",
+    "createdBy": "string",
+    "modifiedOn": "string",
+    "modifiedBy": "string",
+    "token": "string",
+    "<ModifyOn>k__BackingField": "string",
+    "<ModifyBy>k__BackingField": "string"
+  }
+}

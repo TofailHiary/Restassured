@@ -1,0 +1,25 @@
+{
+  "apis": {
+    "petstore": {
+      "baseUri": "https://petstore.swagger.io",
+      "basePath": "/v2",
+      "endpoint": "/pet"
+    },
+    "hrmsLogin": {
+      "baseUri": "https://172.16.16.170:666",
+      "basePath": "/HRMSSecurity/Authenticate",
+      "endpoint": "/Login"
+    },
+    "hrmsDashboard": {
+      "baseUri": "https://172.16.16.170:666",
+      "basePath": "HRMSProcess/Employee",
+      "endpoint": "/GetDashboard"
+    },
+    
+    "hrmsLogout": {
+      "baseUri": "https://172.16.16.170:666",
+      "basePath": "/HRMSSecurity/Authenticate",
+      "endpoint": "/LogOut"
+    }
+  }
+}
